@@ -66,6 +66,30 @@ body{
   border-bottom: 1px solid var(--border);
 }
 .navbar-brand{ letter-spacing: .2px; }
+.site-logo{
+  height: 48px;
+  width: auto;
+  max-width: min(260px, 62vw);
+  object-fit: contain;
+  display: block;
+}
+@media (min-width: 992px){
+  .site-logo{ height: 56px; max-width: 280px; }
+}
+.site-logo-footer{
+  height: 72px;
+  width: auto;
+  max-width: min(280px, 100%);
+  object-fit: contain;
+  display: block;
+}
+.site-logo-footer-sm{
+  height: 44px;
+  width: auto;
+  max-width: min(240px, 85vw);
+  object-fit: contain;
+  display: block;
+}
 .brand-badge{
   display:inline-flex;
   align-items:center;
@@ -332,3 +356,4 @@ body{
   .hero{ padding-top: 70px; min-height: auto; }
   .image-card img{ height: 360px; }
 }
+
