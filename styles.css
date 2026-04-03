@@ -117,7 +117,7 @@ body{
   display:flex;
   align-items:center;
   background:
-    url("https://images.unsplash.com/photo-1597008641621-3c0b6f6c8c1d?auto=format&fit=crop&w=2200&q=80")
+    url("images/photo-0059.png")
     center/cover no-repeat;
 }
 .hero-overlay{
@@ -295,6 +295,9 @@ body{
   transform: scale(1.01);
   transition: transform .2s ease;
 }
+.gallery-page .gallery-tile img{
+  height: 220px;
+}
 .gallery-tile:hover img{ transform: scale(1.06); }
 .gallery-label{
   position:absolute;
@@ -356,4 +359,3 @@ body{
   .hero{ padding-top: 70px; min-height: auto; }
   .image-card img{ height: 360px; }
 }
-
